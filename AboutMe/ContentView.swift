@@ -29,7 +29,7 @@ struct ContentView: View {
                             .fontWeight(.semibold)
                             .foregroundColor(Color(hue: 0.694, saturation: 0.937, brightness: 0.39))
                             .padding(.horizontal)
-                        Text("I am 15 going into sophmore year of highschool")
+                        Text("I am 15 going into my sophmore year of highschool")
 		                            .font(.title2)
                             .fontWeight(.regular)
                             .foregroundColor(Color(hue: 0.694, saturation: 0.937, brightness: 0.39))
@@ -49,7 +49,7 @@ struct ContentView: View {
                             .padding(.horizontal)
                             .aspectRatio(contentMode: .fit)
                     }
-                    .background(Rectangle().frame(width: 250.0, height: 300.0) .foregroundColor(Color(red: 0.39, green: 0.55, blue: 0.85)))
+                    .background(Rectangle().padding(.horizontal).frame(width: 250.0, height: 300.0) .foregroundColor(Color(red: 0.39, green: 0.55, blue: 0.85)))
                     .cornerRadius(15)
                 }
                 HStack {
@@ -59,14 +59,18 @@ struct ContentView: View {
                             .cornerRadius(15)
                             .aspectRatio(contentMode: .fit)
                             .padding(.horizontal)
-                            .background(Rectangle().frame(width: 250.0, height: 300.0) .foregroundColor(Color(red: 0.39, green: 0.55, blue: 0.85)))
+                            .background(Rectangle().padding(.horizontal).frame(width: 250.0, height: 300.0) .foregroundColor(Color(red: 0.39, green: 0.55, blue: 0.85)))
                             .cornerRadius(15)
                     }
-                        Text("I'm in a family of five!! (I'm the youngest! 👶)")
+                        Text("I'm in a family of five!! I have TWO sisters (I'm the youngest! 👶)")
                             .font(.title2)
                             .fontWeight(.regular)
                             .foregroundColor(Color(hue: 0.694, saturation: 0.937, brightness: 0.39))
                             .padding(.horizontal)
+                    
+                    HStack {
+                        Text("🫧")
+                    }
                     }
                 }
             }
